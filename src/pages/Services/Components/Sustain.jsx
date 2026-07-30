@@ -1,4 +1,5 @@
 import React from 'react'
+import plant from '../../../assets/Images/soursop.jpg'
 
 const Sustain = () => {
   return (
@@ -15,9 +16,9 @@ const Sustain = () => {
             <p>Ongoing Maintenace and Pruning</p>
             <button className='bg-green-800 px-6 py-4 rounded-4xl text-white'>Start Your Orchard</button>
         </div>
-        <div className=' bg-green-500 rounded-2xl w-120 h-100 relative'>
-            <div className='bg-gray-200 rounded-2xl w-48 h-36 absolute top-56 left-64'>
-
+        <div className=' bg-green-500 rounded-2xl w-120 h-100 relative bg-center bg-no-repeat bg-cover'style={{backgroundImage:`url(${plant})`}}>
+            <div className='bg-gray-200 rounded-2xl w-52 h-36 p-4 absolute top-56 left-64'>
+                <p className='text-green-700 text-sm font-semibold'><q>AgricPremium transformed our idle land into a thriving citrus plantation in just two seasons</q></p>
             </div>
         </div>
     </div>
