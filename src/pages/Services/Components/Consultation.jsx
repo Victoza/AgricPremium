@@ -1,5 +1,6 @@
 import React from 'react'
 import Card from '../../../Components/Card'
+import man from '../../../assets/Images/man.jpg'
 
 const Consultation = () => {
   return (
@@ -22,7 +23,7 @@ const Consultation = () => {
                 
             </div>
             <div>
-                <div  className='bg-green-400 size-60 md:size-80 rounded-full'>
+                <div  className='bg-green-400 size-60 md:size-80 rounded-full bg-center bg-no-repeat bg-cover'style={{backgroundImage:`url(${man})`}}>
                     
                 </div>
             </div>

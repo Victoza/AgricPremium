@@ -9,7 +9,7 @@ const Competence = () => {
   const Cards = [1,2,3,4,5,6,7,8]
   return (
     <div className='flex flex-col p-16 gap-6'>
-       <h2 className='text-center text-2xl md:text-3xl font-semibold'>Our Core Competences</h2>
+       <h2 className='text-center text-2xl md:text-3xl font-semibold text-green-800'>Our Core Competences</h2>
        <p className='text-center'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi aut et architecto?</p>
        {/* <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-16'>
           {Cards.map((card) => (

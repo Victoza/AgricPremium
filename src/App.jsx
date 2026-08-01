@@ -25,7 +25,7 @@ import ProductsPage from './pages/Products/ProductsPage'
 function App() {
 
   return (
-      <div>
+      <div className=''>
 
         <Header/>
       {/* <Home/> */}

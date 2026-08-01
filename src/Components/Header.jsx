@@ -22,10 +22,11 @@ const Header = () => {
         <button className='block md:hidden cursor-pointer' onClick={()=>setIsMenuOpen(!isMenuOpen)}>{isMenuOpen ? <HiX className='text-green-800' size={36}/> : <IoMenu className='text-green-800' size={36} size={36}/>  }</button> 
     </div>
     {/* Mobile Menu */}
+    {}
     {isMenuOpen && (  
-    <div className='md:hidden sticky top-0 h-100 flex flex-col space-y-4 justify-center bg-gray-100 w-full py-6'>
+    <div className='md:hidden absolute top-0 h-100 flex flex-col space-y-4 justify-center bg-gray-100 w-full py-6'>
         <ul className='flex flex-col text-md font-semibold text-center space-y-4 cursor-pointer'>
-            <li className='hover:bg-green-500 rounded-xl p-2'><Link to="/">Home</Link></li>
+            <li className='hover:bg-green-500 rounded-xl p-2'><Link to="/" >Home</Link></li>
             <li className='hover:bg-green-500 rounded-xl p-2'><Link to="/services">Services</Link></li>
             <li className='hover:bg-green-500 rounded-xl p-2'><Link to="/products">Products</Link></li>
             <li className='hover:bg-green-500 rounded-xl p-2'><Link to="/about">About Us</Link></li>

@@ -19,10 +19,10 @@ const Featured = () => {
             <p>High Quality Agricultural products</p>
             <p>View all products</p>
         </div> 
-        <div className='grid grid-cols-2 gap-8 mx-auto md:grid-cols-4 pt-12'>
+        <div className='grid grid-cols-1 gap-8 mx-auto md:grid-cols-4 pt-12'>
             {cards.map((card)=>(
-                <div className='bg-white min-h-80 w-60 rounded-2xl hover:scale-105'>
-                    <img src={card.image} alt="" className='object-cover w-64 h-40 rounded-t-2xl'/>
+                <div key={card.title} className='bg-white flex flex-col  rounded-2xl transition-transform duration-300 hover:scale-105'>
+                    <img src={card.image} alt="" className='object-cover w-full h-40 rounded-t-2xl'/>
                     <div className='p-6'>
                         <p className='mb-2 text-lg font-bold'>{card.title}</p>
                         <p className='mb-2 text-lg font-semibold'>{card.detail}</p>

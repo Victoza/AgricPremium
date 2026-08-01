@@ -5,7 +5,7 @@ const Sustain = () => {
   return (
     <div className='grid grid-cols-1 md:grid-cols-2 space-y-16 p-16 mx-auto'>
         <div className='space-y-4'>
-            <h3 className='text-3xl'>Sustainabe Fruit Tree Planting</h3>
+            <h3 className='text-3xl text-green-800'>Sustainabe Fruit Tree Planting</h3>
             <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque dolore voluptates 
                 totam quo porro exercitationem qui quidem obcaecati, autem veniam saepe non, 

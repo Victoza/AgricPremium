@@ -13,7 +13,7 @@ const Products = () => {
             <h2  className='text-4xl font-semibold mb-8'>Precision Cultivation Catalog</h2>
             <div className='flex justify-between gap-4'>
                 <p className='mb-6'>High-performance seeds,fertilizers and 
-                smart irrigationsysytems curated <br/>for the modernNigeian Agri-business
+                smart irrigation systems curated <br/>for the modernNigeian Agri-business
                 </p>  
             </div>  
         </div>

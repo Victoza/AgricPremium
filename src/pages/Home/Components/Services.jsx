@@ -22,9 +22,9 @@ const Services = () => {
     <div className='bg-white p-16 '>
         <p className='text-center mb-4'>EXPERT SOLUTIONS</p>
         <h2 className='text-center mb-16 text-2xl font-semibold'>Our Specialized Services</h2>
-        <div className='grid grid-cols-2 mx-auto gap-16 md:grid-cols-4'>
-            {services.map((service)=>(
-                <div className='bg-white rounded-2xl  w-70 min-h-80 p-8 gap-8 shadow-xl flex flex-col justify-center'>
+        <div className='grid grid-cols-1 mx-auto gap-6 md:grid-cols-4'>
+            {services.map((service,index)=>(
+                <div key={index} className='bg-white rounded-2xl  w-70 min-h-80 p-8 gap-8 shadow-xl flex flex-col justify-center'>
                     <p className='bg-green-500 size-16 rounded-2xl text-center text-white flex justify-center items-center'>{service.icon}</p>
                     <p className='text-xl font-semibold'>{service.title}</p>
                     <p>{service.desc}</p>
