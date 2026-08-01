@@ -13,13 +13,13 @@ const Featured = () => {
         {image:Image4, title:"Soil Testing Kits",detail:"Complete Nutrient Analysis",price:"28,500"},
     ]
   return (
-    <div className='p-16 bg-gray-100 flex flex-col justify-center mx-auto'>
+    <div className='p-4 md:p-8 lg:p-16 bg-gray-100 flex flex-col justify-center mx-auto'>
         <h2 className='text-2xl text-green-800 font-bold'>Featured Products</h2>
         <div className='flex justify-between'>
             <p>High Quality Agricultural products</p>
             <p>View all products</p>
         </div> 
-        <div className='grid grid-cols-1 gap-8 mx-auto md:grid-cols-4 pt-12'>
+        <div className='grid grid-cols-1 gap-8 md:grid-cols-4 pt-12'>
             {cards.map((card)=>(
                 <div key={card.title} className='bg-white flex flex-col  rounded-2xl transition-transform duration-300 hover:scale-105'>
                     <img src={card.image} alt="" className='object-cover w-full h-40 rounded-t-2xl'/>
