@@ -5,7 +5,7 @@ import { BiCalendar } from 'react-icons/bi'
 const Hero = () => {
   return (
     // 
-    <div className='flex min-h-screen bg-green-100 px-4 md:px-8 lg:px-16 w-full bg-cover bg-center bg-no-repeat' style={{backgroundImage: `url(${hero})`}} >
+    <div className='flex h-screen bg-green-100 px-4 md:px-8 lg:px-16 w-full bg-cover bg-center bg-no-repeat' style={{backgroundImage: `url(${hero})`}} >
       <div className='container mx-auto flex items-center'>
           <div className='w-full flex flex-col justify-center gap-8'>
               <p className='text-4xl md:text-5xl lg:text-6xl white-space-nowrap font-bold text-white'>Cultivating Excellence in Nigerian Agriculture</p>

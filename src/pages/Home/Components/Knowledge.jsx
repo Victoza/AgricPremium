@@ -1,7 +1,7 @@
 import React from 'react'
-import img1 from '../assets/Images/img1.jpg'
-import img2 from '../assets/Images/img2.jpg'
-import img3 from '../assets/Images/img3.jpeg'
+import img1 from '../../../assets/Images/img1.jpg'
+import img2 from '../../../assets/Images/img2.jpg'
+import img3 from '../../../assets/Images/img3.jpeg'
 
 const Knowledge = () => {
     const details = [
@@ -15,10 +15,10 @@ const Knowledge = () => {
         <p className='text-center'>Stay updated with the latest and modern Agricultural practices</p>
         <div className='grid grid-cols-1 gap-8 mx-auto md:grid-cols-3 pt-16'>
             {details.map((detail)=>(
-            <div key={detail.title} className='w-90 bg-white rounded-2xl relative transition duration-300 hover:scale-105'>
+            <div key={detail.title} className='w-90 bg-white rounded-2xl shadow-2xl relative transition duration-300 hover:scale-105'>
                 <div>
                     <img src={detail.image} alt="" className='w-full h-60 object-cover rounded-t-2xl'/>
-                    <span className='absolute top-48 left-4 bg-green-800 p-2 rounded-4xl text-sm text-white'>{detail.tag}</span>
+                    <span className='absolute top-48 left-4 bg-green-800 p-2 rounded-full text-sm text-white'>{detail.tag}</span>
                 </div>
                 <div className='p-8'>
                     <p className='text-xl'>{detail.date}</p>

@@ -6,7 +6,7 @@ const Card = () => {
   return (
     <div className='w-64 min-h-80 shadow-2xl rounded-xl relative'>
         <img src={Image1} alt="Product" className='w-full h-48 object-cover rounded-t-2xl' />
-        <span className='absolute top-8 left-2 text-green-800 font-semibold bg-green-300 rounded-2xl px-2 text-sm'>Tag</span>
+        <span className='absolute top-8 left-2 text-green-800 font-semibold bg-green-300 rounded-full px-3 text-sm'>Tag</span>
         <div className='p-4 gap-2'>
             <p className='text-lg'>TITLE</p>
             <p className='text-xl text-black'>Name</p>
