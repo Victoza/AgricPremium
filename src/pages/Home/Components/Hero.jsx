@@ -12,7 +12,7 @@ const Hero = () => {
               <p className='text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, sunt. distinctio fugit<br/> dolorem eum ducimus quo? Dolor ab totam ea sed ullam cupiditate fugit exercitationem!</p>
               <div className='flex flex-col md:flex-row space-x-8 gap-4'>
                   <button className='bg-green-800 flex justify-center items-center gap-2 rounded-3xl text-white font-semibold px-4 py-4'>Book Appointment<BiCalendar/></button>
-                  <button className='bg-transparent text-white border-2 border-white hover:bg-green-700 hover:text-white hover:border-0 rounded-3xl px-8 py-4'>Explore Services</button>
+                  <button className='bg-transparent text-white border-2 border-white hover:bg-green-700 hover:text-white hover:border-0 rounded-3xl px-4 py-4'>Explore Services</button>
               </div>
           </div>
         </div>

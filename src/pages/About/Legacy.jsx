@@ -2,7 +2,7 @@ import React from 'react'
 
 const Legacy = () => {
   return (
-    <section className='py-12 px-24'>
+    <section className='py-12 px-6 md:px-16'>
       <div className='container mx-auto bg-green-800 rounded-2xl flex flex-col space-y-8 p-8 md:p-16 items-center justify-center'>
         <h2 className='text-2xl md:text-4xl lg:text-5xl font-bold'>Join Our Growing Legacy</h2>
         <p className='text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos sint ab quos,

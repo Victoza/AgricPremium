@@ -10,28 +10,30 @@ const Knowledge = () => {
         {image:img3,tag:"AQUACULTURE",date:"MARCH 12, 2024",title:"THE FUTURE OF CATFISH FARMING IN NIGERIA",desc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam dolorem voluptatibus exercitationem tempore in alias cum sed molestiae tenetur velit"}
     ]
   return (
-    <div className='felx justify-center p-12 mx-auto w-full'>
-        <h2 className='text-center text-2xl text-green-800 font-bold'>Knowledge Hub</h2>
-        <p className='text-center'>Stay updated with the latest and modern Agricultural practices</p>
-        <div className='grid grid-cols-1 gap-8 mx-auto md:grid-cols-3 pt-16'>
-            {details.map((detail)=>(
-            <div key={detail.title} className='w-90 bg-white rounded-2xl shadow-2xl relative transition duration-300 hover:scale-105'>
-                <div>
-                    <img src={detail.image} alt="" className='w-full h-60 object-cover rounded-t-2xl'/>
-                    <span className='absolute top-48 left-4 bg-green-800 p-2 rounded-full text-sm text-white'>{detail.tag}</span>
+    <section className='py-6'>
+        <div className='flex flex-col justify-center p-12 mx-auto w-full'>
+            <h2 className='text-center text-2xl text-green-800 font-bold'>Knowledge Hub</h2>
+            <p className='text-center'>Stay updated with the latest and modern Agricultural practices</p>
+            <div className='grid grid-cols-2 gap-8 mx-auto md:grid-cols-3 pt-16'>
+                {details.map((detail)=>(
+                <div key={detail.title} className=' bg-white rounded-2xl shadow-2xl relative transition duration-300 hover:scale-105'>
+                    <div>
+                        <img src={detail.image} alt="" className='w-full h-60 object-cover rounded-t-2xl'/>
+                        <span className='absolute top-48 left-4 bg-green-800 py-1 px-2 rounded-full text-sm text-white'>{detail.tag}</span>
+                    </div>
+                    <div className='p-8'>
+                        <p className='text-xl'>{detail.date}</p>
+                        <p className='text-md text-green-800 font-semibold'>{detail.title}</p>
+                        <p>{detail.desc}</p>
+                        <p className='text-green-800 cursor-pointer'>Read Article</p>
+                    </div>
+                    
                 </div>
-                <div className='p-8'>
-                    <p className='text-xl'>{detail.date}</p>
-                    <p className='text-md text-green-800 font-semibold'>{detail.title}</p>
-                    <p>{detail.desc}</p>
-                    <p className='text-green-800 cursor-pointer'>Read Article</p>
-                </div>
-                
+            ))}
             </div>
-        ))}
+            
         </div>
-        
-    </div>
+    </section>
   )
 }
 

@@ -8,9 +8,9 @@ const Unsure = () => {
             <h3 className='text-3xl font-semibold'>Unsure what your soil needs?</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, porro at? Libero quam<br/>Aperiam, porro at? Libero quam</p>
             <div className='flex justify-between w-full'>
-                <div className='flex justify-evenly gap-6'>
+                <div className='flex flex-col md:flex-row justify-evenly gap-4'>
                     <button className='bg-green-400 rounded-3xl py-3 px-6'>Book Consultation</button>
-                    <button className='bg-green-400 rounded-3xl py-3 px-6'>Caht with Expert</button>
+                    <button className='bg-green-400 rounded-3xl py-3 px-6'>Chat with Expert</button>
                 </div>
                 <div>
                     <TbMicroscopeOff className='text-gray-500' size={64}/>

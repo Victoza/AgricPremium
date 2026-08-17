@@ -3,21 +3,21 @@ import img from '../../../assets/Images/man.jpg'
 
 const Minds = () => {
   return (
-    <section>
-      <div className='grid grid-cols-1 md:grid-cols-3 gsp-6'>
-        <div className='py-16 px-12'>         
+    <section className='py-12'>
+      <div className='w-full mx-auto grid grid-cols-2 md:grid-cols-3 '>
+        <div className='p-6 '>         
             <img className='rounded-xl' src={img} alt="" />
           <p>Dr. Adebayo Ogunlesi</p>
           <p>CHIEF EXECUTIVE OFFICER</p>
         </div>
 
-        <div className='py-16 px-12'>         
+        <div className='p-6'>         
             <img className='rounded-xl' src={img} alt="" />
           <p>Dr. Adebayo Ogunlesi</p>
           <p>CHIEF EXECUTIVE OFFICER</p>
         </div>
 
-        <div className='py-16 px-12'>         
+        <div className='p-6'>         
             <img className='rounded-xl' src={img} alt="" />
           <p>Dr. Adebayo Ogunlesi</p>
           <p>CHIEF EXECUTIVE OFFICER</p>
