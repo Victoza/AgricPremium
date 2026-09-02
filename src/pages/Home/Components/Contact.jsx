@@ -14,7 +14,7 @@ const Contact = () => {
     ]
   return (
     <section className='py-12'>
-        <div className='flex max-w-6xl mx-auto  mt-8 justify-center p-4 md:8 lg:16 rounded-2xl'>
+        <div className='flex max-w-6xl mx-auto mt-8 justify-center p-4 md:8 lg:16 rounded-2xl'>
             {/* Section1 */}
             <div className='grid grid-cols-1 md:grid-cols-2 shadow-2xl rounded-2xl min-h-150'>
                 <div className='bg-green-700  p-8 pt-16 space-y-8 rounded-t-2xl md:rounded-l-2xl md:rounded-tr-none md:rounded-br-none'>
@@ -67,6 +67,7 @@ const Contact = () => {
                 </div>
             </div>
         </div>
+        <div className='font-'></div>
     </section>
   )
 }

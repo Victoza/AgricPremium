@@ -19,21 +19,22 @@ const Services = () => {
         {"icon":"⭐","title":"Fumigation & Pest Control","desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, at maiores! Aperiam." },
     ]
   return (
-    <div className='bg-white p-4 md:p-8 lg:p-16 '>
-        <p className='text-center mb-4'>EXPERT SOLUTIONS</p>
-        <h2 className='text-center mb-16 text-2xl font-semibold'>Our Specialized Services</h2>
-        <div className='grid grid-cols-1 mx-auto gap-6 md:grid-cols-4'>
-            {services.map((service,index)=>(
-                <div key={index} className='bg-white rounded-2xl p-8 gap-8 shadow-xl flex flex-col justify-center'>
-                    <p className='bg-green-500 size-16 rounded-2xl text-center text-white flex justify-center items-center'>{service.icon}</p>
-                    <p className='text-xl font-semibold'>{service.title}</p>
-                    <p>{service.desc}</p>
-                    <p>Learn more...</p>
-                </div>
-            ))}
+    <section className='py-12'>
+        <div className='bg-white'>
+            <p className='text-center mb-4'>EXPERT SOLUTIONS</p>
+            <h2 className='text-center mb-16 text-2xl font-semibold'>Our Specialized Services</h2>
+            <div className='grid grid-cols-1 mx-auto gap-6 md:grid-cols-3 lg:grid-cols-4'>
+                {services.map((service,index)=>(
+                    <div key={index} className='bg-white rounded-2xl p-8 gap-8 shadow-xl flex flex-col justify-center'>
+                        <p className='bg-green-500 size-16 rounded-2xl text-center text-white flex justify-center items-center'>{service.icon}</p>
+                        <p className='text-xl font-semibold'>{service.title}</p>
+                        <p>{service.desc}</p>
+                        <p>Learn more...</p>
+                    </div>
+                ))}
+            </div>
         </div>
-
-    </div>
+    </section>
   )
 }
 

@@ -3,7 +3,7 @@ import img from '../../../assets/Images/commit.png'
 
 const Commitment = () => {
   return (
-    <div className=' w-full bg-gray-50 p-16 block md:flex justify-center gap-8'>
+    <section className=' w-full bg-gray-50 px-6 py-12 block md:flex justify-center gap-8'>
         <div className='bg-blue-300 flex-1 h-100 rounded-2xl bg-cover bg-center bg-no-repeat'style={{backgroundImage: `url(${img})`}}>
 
         </div>
@@ -27,7 +27,7 @@ const Commitment = () => {
             </div>
         </div>
         </div>
-    </div>
+    </section>
   )
 }
 

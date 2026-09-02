@@ -14,7 +14,7 @@ const Knowledge = () => {
         <div className='flex flex-col justify-center p-12 mx-auto w-full'>
             <h2 className='text-center text-2xl text-green-800 font-bold'>Knowledge Hub</h2>
             <p className='text-center'>Stay updated with the latest and modern Agricultural practices</p>
-            <div className='grid grid-cols-2 gap-8 mx-auto md:grid-cols-3 pt-16'>
+            <div className='grid grid-cols-1 gap-8 mx-auto md:grid-cols-3 pt-16'>
                 {details.map((detail)=>(
                 <div key={detail.title} className=' bg-white rounded-2xl shadow-2xl relative transition duration-300 hover:scale-105'>
                     <div>

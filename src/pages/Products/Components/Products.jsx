@@ -7,7 +7,8 @@ const Products = () => {
     const Buttons = ["All Products","Fertilizers", "Seeds","Irrigation Kits","Soil Testing"];
     const prods = [1,2,3,4,5,6,7,8]
   return (
-    <div className='justify-center p-16'>
+    <section className='py-12'>
+        <div className='max-w-7xlpx-4 px-4'>
         <div className=''>
             <h3 className='mb-4'>PREMIUM INPUTS</h3>
             <h2  className='text-4xl font-semibold mb-8'>Precision Cultivation Catalog</h2>
@@ -22,19 +23,20 @@ const Products = () => {
             </div>  
         </div>
         
-        <div className='flex gap-2 py-8'>
+        {/* <div className='flex gap-2 py-8'>
             {Buttons.map((button, index) => (
             <button key={index} className='py-2 px-6 bg-green-500 rounded-3xl'>
                 {button}
             </button>
             ))}
-        </div>
+        </div> */}
         <div className=' grid justify-center grid-cols-2 md:grid-cols-4 gap-4'>
             {prods.map((prod) =>(
                 <Card/>
             ))}
         </div>
-    </div>
+        </div>
+    </section>
   )
 }
 
