@@ -7,8 +7,8 @@ const Hero = () => {
     // 
     <section className='py-12 lg:py-24 bg-cover bg-center bg-no-repeat' style={{backgroundImage: `url(${hero})`}} id='home'>
       <div className='flex px-6 md:px-8 lg:px-16 max-w-7xl'>
-        <div className='flex items-center'>
-            <div className='w-full flex flex-col justify-center gap-12'>
+        <div className='flex items-center py-12'>
+            <div className='w-full flex flex-col py-6 justify-center gap-12'>
                 <p className='text-4xl md:text-5xl lg:text-6xl white-space-nowrap font-bold text-white'>Cultivating Excellence in Nigerian Agriculture</p>
                 <p className='text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, sunt. distinctio fugit<br/> dolorem eum ducimus quo? Dolor ab totam ea sed ullam cupiditate fugit exercitationem!</p>
                 <div className='flex flex-col md:flex-row space-x-8 gap-4'>
