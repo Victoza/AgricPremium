@@ -10,8 +10,11 @@ const Header = () => {
   return (
     <>
     <section className=''>
-    <div className='fixed top-0 left-0 right-0 z-50 bg-gray-200  shadow-2xl max-w-7xl flex justify-between items-center p-4'>
-        <p className='text-xl font-bold flex gap-1 items-center text-green-800' >AgricPremium <PiPlant className='text-2xl sm:text-3xl'/></p>
+    <div className='fixed top-0 left-0 right-0 z-50 bg-gray-200 shadow-2xl max-w-7xl flex justify-between items-center p-4'>
+        <Link to='/'>
+            <p className='text-xl font-bold flex gap-1 items-center text-green-800' >AgricPremium <PiPlant className='text-2xl sm:text-3xl'/></p>
+        </Link>
+        
         <ul className='cursor-pointer font-semibold gap-8 hidden md:flex'>
             <li className='text-green-800 border-b-4 border-transparent hover:border-green-800'><Link to="/">Home</Link></li>
             <li className='text-green-800 border-b-4 border-transparent hover:border-green-800'><Link to="/services">Services</Link></li>
@@ -25,15 +28,15 @@ const Header = () => {
     {/* Mobile Menu */}
     {}
     {isMenuOpen && (  
-    <div className='md:hidden fixed top-0 left-0 right-0 z-30 flex flex-col space-y-4 justify-center bg-gray-100 w-full py-6'>
-        <ul className='flex flex-col text-md font-semibold text-center space-y-4 cursor-pointer'>
+    <div className='md:hidden fixed top-15 left-0 right-0 z-40 flex flex-col space-y-4 px-6 justify-center bg-gray-100 w-full py-6'>
+        <ul className='flex flex-col text-md font-semibold text-center space-y-4'>
             <a onClick={()=> setIsMenuOpen(false)} className='hover:bg-green-500 rounded-xl p-2'><Link to="/" >Home</Link></a>
             <a onClick={()=> setIsMenuOpen(false)} className='hover:bg-green-500 rounded-xl p-2'><Link to="/services">Services</Link></a>
             <a onClick={()=> setIsMenuOpen(false)} className='hover:bg-green-500 rounded-xl p-2'><Link to="/products">Products</Link></a>
             <a onClick={()=> setIsMenuOpen(false)} className='hover:bg-green-500 rounded-xl p-2'><Link to="/about">About Us</Link></a>
             <a onClick={()=> setIsMenuOpen(false)} className='hover:bg-green-500 rounded-xl p-2'><Link to="/articles">Articles</Link></a>
         </ul> 
-        <button className='hover:bg-green-500 text-md font-semibold rounded-xl p-2 cursor-pointer'>Book Now</button> 
+        <button className='hover:bg-green-500 text-md font-semibold rounded-full p-2 cursor-pointer bg-green-200'>Book Now</button> 
     </div>
         )}
     </section>

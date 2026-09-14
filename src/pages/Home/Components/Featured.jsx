@@ -14,15 +14,16 @@ const Featured = () => {
     ]
   return (
     <section className='py-8'>
-        <div className='p-4 md:p-8 lg:p-16 bg-gray-100 flex flex-col justify-center items-center container mx-auto'>
+        <div className='p-4 md:p-8 lg:p-16 bg-gray-100 flex flex-col '>
             <h2 className='text-2xl text-green-800 font-bold'>Featured Products</h2>
-            <div className='flex justify-between'>
-                <p>High Quality Agricultural products</p>
-                <p>View all products</p>
+            <div className='flex justify-between space-y-6'>
+                <p className='text-sm md:text-lg lg:text-xl'>High Quality Agricultural products</p>
+                <p className='text-sm md:text-lg lg:text-xl'>View all products</p>
             </div> 
-            <div className='flex gap-6 overflow-x-auto snap-x snap-mandatory scroll-smooth pt-12'>
-                {cards.map((card)=>(
-                    <div key={card.title} className='bg-white flex flex-col rounded-2xl transition-transform duration-300 hover:scale-105'>
+            <div className='w-full overflow-x-auto'>
+                <div className='flex justify-center min-w-max gap-6'>
+                {cards.map((card,index)=>(
+                    <div key={index} className='bg-white flex flex-col rounded-2xl transition-transform duration-300 hover:scale-105'>
                         <img src={card.image} alt="" className='object-cover w-full h-40 rounded-t-2xl'/>
                         <div className='p-6'>
                             <p className='mb-2 text-lg font-bold'>{card.title}</p>
@@ -35,7 +36,7 @@ const Featured = () => {
                         
                     </div>
                 ))}
-                
+              </div>  
             </div> 
         </div>
     </section>

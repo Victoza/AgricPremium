@@ -22,8 +22,8 @@ const Contact = () => {
                     <p className='text-white leading-8'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat tenetur saepe molestias fuga vero sed, odit sint consequuntur 
                     dolorem nam maiores aperiam mollitia omnis doloremque nisi repudiandae id dolore ipsam?</p>
                     <div>
-                        {reps.map((rep)=>(
-                            <div className='flex gap-x-4 my-4 items-center'>
+                        {reps.map((rep,index)=>(
+                            <div key={index} className='flex gap-x-4 my-4 items-center'>
                                 <span className='bg-green-400 text-white p-4 rounded-full'>{rep.icon}</span>
                                 <span className='text-white'>{rep.detail}</span>
                             </div>

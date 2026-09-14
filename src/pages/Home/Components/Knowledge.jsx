@@ -11,8 +11,8 @@ const Knowledge = () => {
     ]
   return (
     <section className='py-6'>
-        <div className='flex flex-col justify-center p-12 mx-auto w-full'>
-            <h2 className='text-center text-2xl text-green-800 font-bold'>Knowledge Hub</h2>
+        <div className='flex flex-col justify-center px-4 md:px-6 lg:px-8 w-full'>
+            <h2 className='text-center text-2xl text-green-800 font-bold mb-6'>Knowledge Hub</h2>
             <p className='text-center'>Stay updated with the latest and modern Agricultural practices</p>
             <div className='grid grid-cols-1 gap-8 mx-auto md:grid-cols-3 pt-16'>
                 {details.map((detail)=>(
