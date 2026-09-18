@@ -4,7 +4,7 @@ import { TbMicroscopeOff } from "react-icons/tb";
 const Unsure = () => {
   return (
     <div className='py-12 flex justify-center items-center'>
-        <div className='max-w-6xl px-6'>
+        <div className='px-6'>
             <div className='p-6 gap-6 flex flex-col justify-center w-full bg-green-800 rounded-2xl text-white'>
                 <h3 className='text-3xl font-semibold'>Unsure what your soil needs?</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, porro at? Libero quam<br/>Aperiam, porro at? Libero quam</p>

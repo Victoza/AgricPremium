@@ -4,7 +4,7 @@ import plant from '../../../assets/Images/soursop.jpg'
 const Sustain = () => {
   return (
     <section className='py-8'>
-        <div className='max-w-7xl px-4 md:px-8 lg:px-12'>
+        <div className=' px-4 md:px-8 lg:px-12'>
             <div className='grid grid-cols-1 md:grid-cols-2 space-y-16'>
                 <div className='space-y-4'>
                     <h3 className='text-3xl text-green-800'>Sustainabe Fruit Tree Planting</h3>

@@ -8,7 +8,7 @@ import {
 const Form = () => {
   return (
     <section className="bg-gray-100 py-20 px-5">
-      <div className="max-w-6xl mx-auto bg-white rounded-3xl shadow-2xl overflow-hidden grid grid-cols-1 lg:grid-cols-2">
+      <div className="bg-white rounded-3xl shadow-2xl overflow-hidden grid grid-cols-1 lg:grid-cols-2">
 
         {/* Left Side */}
         <div className="bg-green-950 text-white p-10 md:p-14 flex flex-col justify-center">

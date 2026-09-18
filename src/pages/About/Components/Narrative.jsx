@@ -11,7 +11,7 @@ const Narrative = () => {
           {/* LEFT CARD */}
           <div className="lg:col-span-2">
 
-            <div className="bg-white border border-gray-200 rounded-3xl px-4 md:px-8 h-full">
+            <div className="bg-white border border-gray-200 rounded-3xl p-8 md:p-10 h-full">
 
               {/* Title */}
               <div className="flex items-center gap-4 mb-6">

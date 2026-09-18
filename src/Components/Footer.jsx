@@ -5,12 +5,12 @@ import { FaTelegram } from 'react-icons/fa'
 export const Footer = () => {
   return (
     <footer className=''>
-        <div className='bg-green-800 p-12 grid grid-cols-1 md:grid-cols-4 text-gray-300'>
+        <div className='bg-green-800 p-6 grid grid-cols-1 md:grid-cols-4 text-gray-300'>
             <div>
                 <p className='text-xl font-semibold mb-8'>AgricPremium</p>
                 <p className='text-md'>Driving the future of Agricultural productivity in Nigeria through science,commitment and excellence in every harvest</p>
             </div>
-            <div className='pl-8'>
+            <div className=''>
                 <h2 className='mb-6 text-md font-bold'>Quick Links</h2>
                 <ul>
                     <li>Services</li>

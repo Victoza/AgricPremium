@@ -10,7 +10,7 @@ const Header = () => {
   return (
     <>
     <section className=''>
-    <div className='fixed top-0 left-0 right-0 z-50 bg-gray-200 shadow-2xl max-w-7xl flex justify-between items-center p-4'>
+    <div className='fixed top-0 left-0 right-0 z-50 bg-gray-200 shadow-2xl flex justify-between items-center p-4'>
         <Link to='/'>
             <p className='text-xl font-bold flex gap-1 items-center text-green-800' >AgricPremium <PiPlant className='text-2xl sm:text-3xl'/></p>
         </Link>

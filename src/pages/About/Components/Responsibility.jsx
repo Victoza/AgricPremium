@@ -4,7 +4,7 @@ import img from '../../../assets/Images/hero.png'
 const Responsibility = () => {
   return (
     <section>
-      <div className='container mx-auto flex flex-col md:flex-row gap-6 px-4 md:px-6 lg:px-8'>
+      <div className='flex flex-col md:flex-row gap-6 px-4 md:px-6 lg:px-8'>
         <div className='flex items-center flex-1 py-6'>
           <img className='rounded-3xl ' src={img} alt="" />
         </div>

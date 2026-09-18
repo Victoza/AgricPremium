@@ -3,8 +3,9 @@ import img from '../../../assets/Images/hero.png'
 
 const ArticleHero = () => {
   return (
-    <section className='py-12 flex items-center'>
-      <div className='grid grid-cols-1 md:grid-cols-2 container mx-auto p-6 md:p-12 gap-6'>
+    <section className='py-12'>
+      <div className="w-full px-6 md:px-12">
+      <div className='grid grid-cols-1 md:grid-cols-2 gap-6 py-12'>
         <div className='space-y-4 md:space-y-6'>
           <p className='text-green-950'>Knowledge Hub</p>
           <h2 className='text-2xl text-green-700 md:text-4xl lg:text-5xl font-semibold'>Cultivating Nigerian Agricultural Experience</h2>
@@ -19,8 +20,9 @@ const ArticleHero = () => {
         </div>
         
         <div>
-          <img className='rounded-3xl h-100' src={img} alt="image of a farmland" />
+          <img className='rounded-3xl w-full h-120 bg-cover bg-center'  src={img} alt="image of a farmland" />
         </div>
+      </div>
       </div>
     </section>
   )

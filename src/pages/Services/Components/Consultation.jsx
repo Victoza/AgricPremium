@@ -5,7 +5,7 @@ import man from '../../../assets/Images/man.jpg'
 const Consultation = () => {
   return (
     <div className='flex justify-center px-8 py-6'>
-        <div className='grid grid-cols-1 md:grid-cols-2 justify-center gap-16 bg-green-900 rounded-3xl space-y-6 p-6 lg:p-16 w-284'>
+        <div className='grid grid-cols-1 md:grid-cols-2 justify-center gap-16 bg-green-900 rounded-3xl space-y-6 p-6 lg:p-16 '>
             <div className='space-y-6'>
                 <h3 className='text-white text-3xl'>Expert Agricultural Consultations</h3>
                 <p className='text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, saepe voluptatum. Ducimus
