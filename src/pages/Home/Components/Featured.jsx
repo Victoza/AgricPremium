@@ -5,6 +5,7 @@ import Image3 from '../../../assets/Images/image3.jpg'
 import Image4 from '../../../assets/Images/image4.jpg'
 import { FaCartShopping } from 'react-icons/fa6'
 
+
 const Featured = () => {
     const cards = [
         {image:Image1, title:"Organic Fertilizer",detail:"Soil enriching complex",price:"12,500"},
@@ -26,11 +27,11 @@ const Featured = () => {
                     <div key={index} className='bg-white flex flex-col rounded-2xl transition-transform duration-300 hover:scale-105'>
                         <img src={card.image} alt="" className='object-cover w-full h-40 rounded-t-2xl'/>
                         <div className='p-6'>
-                            <p className='mb-2 text-lg font-bold'>{card.title}</p>
-                            <p className='mb-2 text-lg font-semibold'>{card.detail}</p>
+                            <p className='mb-2 text-lg font-bold text-green-900'>{card.title}</p>
+                            <p className='mb-2 text-sm font-light'>{card.detail}</p>
                             <div className='flex items-center justify-between gap-4'>
-                                <p className='text-semibold'>{card.price}</p>
-                                <p className='bg-green-200 p-4 rounded-full'><FaCartShopping/></p> 
+                                <p className='font-semibold'>#{card.price}</p>
+                                <p className='border border-green-600 p-4 rounded-full'><FaCartShopping className='text-green-900'/></p> 
                             </div>
                         </div>
                         

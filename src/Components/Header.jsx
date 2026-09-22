@@ -16,11 +16,11 @@ const Header = () => {
         </Link>
         
         <ul className='cursor-pointer font-semibold gap-8 hidden md:flex'>
-            <li className='text-green-800 border-b-4 border-transparent hover:border-green-800'><Link to="/">Home</Link></li>
-            <li className='text-green-800 border-b-4 border-transparent hover:border-green-800'><Link to="/services">Services</Link></li>
-            <li className='text-green-800 border-b-4 border-transparent hover:border-green-800'><Link to="/products">Products</Link></li>
-            <li className='text-green-800 border-b-4 border-transparent hover:border-green-800'><Link to="/about">About Us</Link></li>
-            <li className='text-green-800 border-b-4 border-transparent hover:border-green-800'><Link to="/articles">Articles</Link></li>
+            <li className='text-green-800 border-b border-transparent hover:border-green-800'><Link to="/">Home</Link></li>
+            <li className='text-green-800 border-b border-transparent hover:border-green-800'><Link to="/services">Services</Link></li>
+            <li className='text-green-800 border-b border-transparent hover:border-green-800'><Link to="/products">Products</Link></li>
+            <li className='text-green-800 border-b border-transparent hover:border-green-800'><Link to="/about">About Us</Link></li>
+            <li className='text-green-800 border-b border-transparent hover:border-green-800'><Link to="/articles">Articles</Link></li>
         </ul>
         <button className='bg-green-800 rounded-3xl text-white font-semibold py-2 px-4 hidden md:block'>Book Now</button>
         <button className='block md:hidden cursor-pointer' onClick={()=>setIsMenuOpen(!isMenuOpen)}>{isMenuOpen ? <HiX className='text-green-800' size={36}/> : <IoMenu className='text-green-800' size={36}/>}</button> 

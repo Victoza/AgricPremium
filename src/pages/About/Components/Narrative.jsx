@@ -1,6 +1,10 @@
 import React from "react";
 // import { Eye, Power, ScrollText } from "lucide-react";
 
+import { RiTargetFill } from "react-icons/ri";
+import { IoChatbubblesSharp } from "react-icons/io5";
+import { MdVisibility } from "react-icons/md";
+
 const Narrative = () => {
   return (
     <section className="bg-gray-50 py-12">
@@ -17,6 +21,7 @@ const Narrative = () => {
               <div className="flex items-center gap-4 mb-6">
 
                 <div className="bg-gray-100 p-3 rounded-xl">
+                  <IoChatbubblesSharp/>
                   {/* <ScrollText
                     size={20}
                     className="text-green-950"
@@ -59,7 +64,8 @@ const Narrative = () => {
 
             {/* MISSION */}
             <div className="bg-green-950 text-white rounded-3xl p-7">
-
+              
+              <RiTargetFill size={30} className="mb-4 text-green-500"/>
               {/* <Power
                 size={20}
                 className="text-green-400 mb-4"
@@ -80,7 +86,7 @@ const Narrative = () => {
 
             {/* VISION */}
             <div className="p-0">
-
+                <MdVisibility size={30} className="mb-4 text-gray-500"/>
               {/* <Eye
                 size={20}
                 className="text-green-950 mb-4"

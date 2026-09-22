@@ -23,8 +23,8 @@ const Services = () => {
   return (
     <section className='py-12'>
         <div className='bg-white'>
-            <p className='text-center mb-4 text-[#003426]'>EXPERT SOLUTIONS</p>
-            <h2 className='text-center mb-16 text-2xl text-[#003426] font-semibold'>Our Specialized Services</h2>
+            <p className='text-center mb-4 text-green-950 font-semibold'>EXPERT SOLUTIONS</p>
+            <h2 className='text-center mb-16 text-2xl text-green-900 font-semibold'>Our Specialized Services</h2>
             <div className='grid grid-cols-1 mx-auto gap-6 md:grid-cols-3 lg:grid-cols-4 px-4 md:px-6 lg:px-8'>
                 {services.map((service,index)=>(
                     <div key={index} className='bg-white rounded-2xl p-8 gap-8 shadow-xl flex flex-col justify-center'>

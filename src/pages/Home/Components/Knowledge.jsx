@@ -11,21 +11,21 @@ const Knowledge = () => {
     ]
   return (
     <section className='py-6'>
-        <div className='flex flex-col justify-center px-4 md:px-6 lg:px-8 w-full'>
+        <div className='flex flex-col justify-center px-8 md:px-12 lg:px-16 w-full'>
             <h2 className='text-center text-2xl text-green-800 font-bold mb-6'>Knowledge Hub</h2>
-            <p className='text-center'>Stay updated with the latest and modern Agricultural practices</p>
+            <p className='text-center text-xl'>Stay updated with the latest and modern Agricultural practices</p>
             <div className='grid grid-cols-1 gap-8 mx-auto md:grid-cols-3 pt-16'>
                 {details.map((detail)=>(
                 <div key={detail.title} className=' bg-white rounded-2xl shadow-2xl relative transition duration-300 hover:scale-105'>
                     <div>
                         <img src={detail.image} alt="" className='w-full h-60 object-cover rounded-t-2xl'/>
-                        <span className='absolute top-48 left-4 bg-green-800 py-1 px-2 rounded-full text-sm text-white'>{detail.tag}</span>
+                        <span className='absolute top-48 left-4 bg-green-800 py-1 px-4 rounded-full text-sm text-white'>{detail.tag}</span>
                     </div>
                     <div className='p-8'>
-                        <p className='text-xl'>{detail.date}</p>
-                        <p className='text-md text-green-800 font-semibold'>{detail.title}</p>
-                        <p>{detail.desc}</p>
-                        <p className='text-green-800 cursor-pointer'>Read Article</p>
+                        <p className=' py-2'>{detail.date}</p>
+                        <p className='text-md py-2 text-green-800 font-semibold'>{detail.title}</p>
+                        <p className='py-2'>{detail.desc}</p>
+                        <p className='text-green-800 py-2 cursor-pointer'>Read Article</p>
                     </div>
                     
                 </div>

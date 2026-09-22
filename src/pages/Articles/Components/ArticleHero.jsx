@@ -6,9 +6,9 @@ const ArticleHero = () => {
     <section className='py-12'>
       <div className="w-full px-6 md:px-12">
       <div className='grid grid-cols-1 md:grid-cols-2 gap-6 py-12'>
-        <div className='space-y-4 md:space-y-6'>
+        <div className='space-y-4 md:space-y-6 py-8'>
           <p className='text-green-950'>Knowledge Hub</p>
-          <h2 className='text-2xl text-green-700 md:text-4xl lg:text-5xl font-semibold'>Cultivating Nigerian Agricultural Experience</h2>
+          <h2 className='text-2xl text-green-800 md:text-4xl lg:text-5xl font-semibold'>Cultivating Nigerian Agricultural Experience</h2>
           <p className='max-w-lg'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto vitae quidem perspiciatis! 
             Dignissimos, laudantium! Perspiciatis, 
             similique quia exercitationem corrupti eligendi culpa illo itaque sed?
@@ -19,8 +19,8 @@ const ArticleHero = () => {
           </div>
         </div>
         
-        <div>
-          <img className='rounded-3xl w-full h-120 bg-cover bg-center'  src={img} alt="image of a farmland" />
+        <div alt="image of a farmland" className='rounded-2xl bg-cover bg-center bg-no-repeat'style={{backgroundImage: `url(${img})`}}>
+          {/* <img className='rounded-3xl w-full h-120 bg-cover bg-center'  src={img} alt="image of a farmland" /> */}
         </div>
       </div>
       </div>
