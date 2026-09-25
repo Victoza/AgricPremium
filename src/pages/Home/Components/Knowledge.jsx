@@ -5,9 +5,9 @@ import img3 from '../../../assets/Images/img3.jpeg'
 
 const Knowledge = () => {
     const details = [
-        {image:img1,tag:"YIELD TIPS",date:"MARCH 12, 2024",title:"MAXIMIZING YIELDS IN THE DRY SEASON",desc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam dolorem voluptatibus exercitationem tempore in alias cum sed molestiae tenetur velit"},
-        {image:img2,tag:"PEST CONTROL",date:"FEBRUARY 28, 2024",title:"MODERN PEST MANAGEMENT FOR COCOA FARMS",desc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam dolorem voluptatibus exercitationem tempore in alias cum sed molestiae tenetur velit"},
-        {image:img3,tag:"AQUACULTURE",date:"MARCH 12, 2024",title:"THE FUTURE OF CATFISH FARMING IN NIGERIA",desc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam dolorem voluptatibus exercitationem tempore in alias cum sed molestiae tenetur velit"}
+        {image:img1,tag:"YIELD TIPS",date:"MARCH 12, 2024",title:"MAXIMIZING YIELDS IN THE DRY SEASON",desc: "Discover practical irrigation, soil management, and crop care techniques that can help farmers maintain healthy crops and improve yields during the dry season."},
+        {image:img2,tag:"PEST CONTROL",date:"FEBRUARY 28, 2024",title:"MODERN PEST MANAGEMENT FOR COCOA FARMS",desc:"Learn how early pest detection, proper farm sanitation, and integrated pest management can help protect cocoa trees and improve farm productivity."},
+        {image:img3,tag:"AQUACULTURE",date:"MARCH 12, 2024",title:"THE FUTURE OF CATFISH FARMING IN NIGERIA",desc:"Explore practical approaches to modern catfish production, including quality fingerlings, feeding practices, water management, and sustainable farm operations."}
     ]
   return (
     <section className='py-6'>

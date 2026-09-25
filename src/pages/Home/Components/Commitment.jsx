@@ -20,11 +20,8 @@ const Commitment = () => {
             <h2 className='text-xl text-green-800 font-semibold'>OUR COMMITMENT</h2>
             <h3 className='text-2xl text-green-800 font-bold'>Modernizing Nigerian Farming with <br/>Precision & Passion</h3>
             <p className='mb-4 leading-8 text-sm md:text-lg'>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium illum perferendis
-        a tempore obcaecati alias est excepturi fugiat ea laudantium odio, 
-        quos necessitatibus quas, ipsa culpa possimus. Sunt, nihil? Non!</p>
-        <p className='mt-4 leading-8 text-sm md:text-lg'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium illum perferendis
-        a tempore obcaecati alias est excepturi fugiat ea laudantium odio</p>
+        At AgricPremium Nigeria we believe that food security is the backbone of national prosperity. Our mission is to empower local farmers by providing world-class agricultural services, inputs and expert guidance.</p>
+        <p className='mt-4 leading-8 text-sm md:text-lg'>From our state-of-the-art nurseries in Lagos to expansive fish farms in the North, we combine Nigerian farming heritage with cutting edge global agronomy standards.</p>
         <div className='flex flex-col gap-6 sm:flex-row justify-between text-sm md:text-lg'>
             <div>
                 <p className='text-green-900 font-semibold'>15+ Years</p>

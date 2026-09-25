@@ -16,11 +16,10 @@ const Contact = () => {
     <section className='py-12'>
         <div className='flex max-w-6xl mx-auto mt-8 justify-center p-4 md:8 lg:16 rounded-2xl'>
             {/* Section1 */}
-            <div className='grid grid-cols-1 md:grid-cols-2 shadow-2xl rounded-2xl min-h-150'>
+            <div className='grid grid-cols-1 md:grid-cols-2 shadow-2xl rounded-2xl min-h-150' id='contact'>
                 <div className='bg-green-700  p-8 pt-16 space-y-8 rounded-t-2xl md:rounded-l-2xl md:rounded-tr-none md:rounded-br-none'>
                     <h3 className='text-3xl font-bold text-white'>Start Your Growth Journey <br/>Today</h3>
-                    <p className='text-white leading-8'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat tenetur saepe molestias fuga vero sed, odit sint consequuntur 
-                    dolorem nam maiores aperiam mollitia omnis doloremque nisi repudiandae id dolore ipsam?</p>
+                    <p className='text-white leading-8'>Schedule a site visit or a virtual consultation with our team. We’ll help you diagnose soil issues, plan your season, or establish a new farm from scratch.</p>
                     <div>
                         {reps.map((rep,index)=>(
                             <div key={index} className='flex gap-x-4 my-4 items-center'>

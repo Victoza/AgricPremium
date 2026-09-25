@@ -9,8 +9,8 @@ import { FaCartShopping } from 'react-icons/fa6'
 const Featured = () => {
     const cards = [
         {image:Image1, title:"Organic Fertilizer",detail:"Soil enriching complex",price:"12,500"},
-        {image:Image2, title:"Hybrid Maize Seeds",detail:"High Yield Variety",price:"4,200"},
-        {image:Image3, title:"Irrigation Kits",detail:"Automatic drip System",price:"65,000"},
+        {image:Image3, title:"Hybrid Maize Seeds",detail:"High Yield Variety",price:"4,200"},
+        {image:Image2, title:"Irrigation Kits",detail:"Automatic drip System",price:"65,000"},
         {image:Image4, title:"Soil Testing Kits",detail:"Complete Nutrient Analysis",price:"28,500"},
     ]
   return (
